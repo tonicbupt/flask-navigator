@@ -9,7 +9,7 @@ def read_long_description():
 
 
 setup(
-    name="Flask-Navigation",
+    name="Flask-Navigator",
     packages=find_packages(exclude=["tests", "docs"]),
     version='0.1.0',
     description="The navigation of Flask application.",
@@ -18,7 +18,7 @@ setup(
     author_email="tonyseek@gmail.com",
     url="https://github.com/tonyseek/flask-navigation",
     license="MIT",
-    keywords=["navigation", "flask", "navbar", "nav"],
+    keywords=["navigator", "flask", "navbar", "nav"],
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",
