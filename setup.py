@@ -14,9 +14,9 @@ setup(
     version='0.1.0',
     description="The navigation of Flask application.",
     long_description=read_long_description(),
-    author="Jiangge Zhang",
+    author="Jiangge Zhang, Modifier:tonic",
     author_email="tonyseek@gmail.com",
-    url="https://github.com/tonyseek/flask-navigation",
+    url="http://code.dapps.douban.com/flask-navigator",
     license="MIT",
     keywords=["navigator", "flask", "navbar", "nav"],
     classifiers=[
