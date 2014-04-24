@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from flask.ext.navigation import Navigation
+from flask.ext.navigator import Navigation
 
 
 app = Flask()

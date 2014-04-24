@@ -6,7 +6,7 @@ Installation
 
 ::
 
-    $ pip install Flask-Navigation
+    $ pip install Flask-Navigator
 
 Set Up
 ------
@@ -14,7 +14,7 @@ Set Up
 Just like the most of Flask extension::
 
     from flask import Flask
-    from flask.ext.navigation import Navigation
+    from flask.ext.navigator import Navigation
 
     app = Flask(__name__)
     nav = Navigation(app)
@@ -60,26 +60,26 @@ API
 Extension Class
 ~~~~~~~~~~~~~~~
 
-.. autoclass:: flask.ext.navigation.Navigation
+.. autoclass:: flask.ext.navigator.Navigation
    :members: init_app, Bar, Item, ItemReference
 
 Internal Classes
 ~~~~~~~~~~~~~~~~
 
-.. autoclass:: flask.ext.navigation.navbar.NavigationBar
+.. autoclass:: flask.ext.navigator.navbar.NavigationBar
    :members:
 
-.. autoclass:: flask.ext.navigation.item.Item
+.. autoclass:: flask.ext.navigator.item.Item
    :members:
 
-.. autoclass:: flask.ext.navigation.item.ItemCollection
+.. autoclass:: flask.ext.navigator.item.ItemCollection
    :members:
    :inherited-members:
 
 Utilities
 ~~~~~~~~~
 
-.. autofunction:: flask.ext.navigation.utils.freeze_dict
+.. autofunction:: flask.ext.navigator.utils.freeze_dict
 
-.. autoclass:: flask.ext.navigation.utils.BoundTypeProperty
+.. autoclass:: flask.ext.navigator.utils.BoundTypeProperty
    :members:
