@@ -4,7 +4,7 @@ from os.path import dirname, realpath, join
 
 def read_long_description():
     current_dir = dirname(realpath(__file__))
-    with open(join(current_dir, "README.rst")) as long_description_file:
+    with open(join(current_dir, "README.md")) as long_description_file:
         return long_description_file.read()
 
 
