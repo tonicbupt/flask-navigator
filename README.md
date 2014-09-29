@@ -1,7 +1,7 @@
 Flask-Navigator
 ===============
 
-Build navigation bars in your Flask application. ::
+Build navigation bars in your Flask application.
 
     nav.Bar('top', [
         nav.Item('Home', 'index'),
